@@ -8,6 +8,10 @@
     "lint": "./node_modules/.bin/eslint lib index.js || true",
     "lint:fix": "./node_modules/.bin/eslint --fix lib index.js || true"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanvanschenck/hysteresis"
+  },
   "author": "Jonathan D. B. Van Schenck",
   "license": "ISC",
   "devDependencies": {
