@@ -1,0 +1,24 @@
+{
+  "name": "hysteresis",
+  "version": "0.1.0",
+  "description": "A UDP Server with user-defined sessions",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build-tools/build-docs.js",
+    "lint": "./node_modules/.bin/eslint lib index.js || true",
+    "lint:fix": "./node_modules/.bin/eslint --fix lib index.js || true"
+  },
+  "author": "Jonathan D. B. Van Schenck",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "chai": "^4.3.6",
+    "eslint": "^8.10.0",
+    "eslint-plugin-jsdoc": "^37.9.6",
+    "eslint-plugin-node": "^11.1.0",
+    "jsdoc-to-markdown": "^7.1.1",
+    "mocha": "^9.2.1"
+  }
+}
